@@ -6,6 +6,7 @@ from config import BASE_URL
 from jsonschema import validate
 from schemas import post_register_success, post_register_failure
 
+
 @pytest.fixture
 def api_client():
     return APIClient(BASE_URL)
